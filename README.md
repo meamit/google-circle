@@ -5,20 +5,23 @@ Short description:
 Allows friends circle to be added and removed to and from circle via drag drop.
 
 What is added?
-1) Allow multiple circles
-2) Detecting if circles are present inside or not and on the basis of that doing zooming and zoom out
-3) Allow use of images for friend circles
-4) Disallowing to drop inside the circle with text, is drop is inside the circle with text then move it to default location
-5) Provide configurable easy method of google circle implementation:
-6) Text label to circle
+ * Allow multiple circles
+ * Detecting if circles are present inside or not and on the basis of that doing zooming and zoom out
+ * Allow use of images for friend circles
+ * Disallowing to drop inside the circle with text, is drop is inside the circle with text then move it to default location
+ * Provide configurable easy method of google circle implementation:
+ * Text label to circle
 
-*method: 
+* Method: 
 
 function drawGoogleCircle(configObj)
 
 example config object:
 
-*var config = {drawHeight:600,drawWidth:600,
+```
+    
+	var config = {drawHeight:600,drawWidth:600,
+	
 	circleX : 150,
 		
 	circleY : 150,
@@ -46,4 +49,4 @@ example config object:
                       src:'img/friend1.png' 
                    }
                     ]};
-
+```
